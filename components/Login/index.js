@@ -9,20 +9,22 @@ const Login = () => {
     <div className="flex justify-center items-center h-screen ">
       <div className="rounded-2xl shadow-lg shadow-grey-500 h-[50%] w-[50%] flex flex-col items-center">
         <span className=" text-2xl">Login</span>
-        <div className="relative my-10 border-solid border-b-[2px] border-b-orange-300 ">
+        <div className="w-[70%] relative my-5 border-solid border-b-[2px] border-b-orange-300 ">
           <input className="peer/input w-full outline-none p-5 text-m" type="text" required />
           <div className="label peer-focus/input:top-[-10px] ">Email</div>
           <div className="icon">
             <User width={"17px"} />
           </div>
         </div>
-        <div className="relative my-10 border-solid border-b-[2px] border-b-orange-300 ">
+        <div className="w-[70%] relative my-5 border-solid border-b-[2px] border-b-orange-300 ">
           <input className="peer/input w-full outline-none p-5 text-m" type="password" required />
           <div className="label peer-focus/input:top-[-10px]">Password</div>
           <div className="icon">
             <Lock width={"17px"} />
           </div>
         </div>
+        <div>Forget Password</div>
+        <div className="my-5 border-solid border-[1px] border-orange-400 rounded-full w-[70%] flex items-center justify-center p-1 text-orange-400 hover:text-white hover:bg-orange-400 cursor-pointer ease-in duration-300"> Login</div>
       </div>
 
       <style jsx>
